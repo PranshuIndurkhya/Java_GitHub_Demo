@@ -6,15 +6,17 @@ public class Employee {
     private String email;
     private int age;
     private int salary;
+    private int sssa;
 
 
 
 
-    public Employee(String name, String email, int age, int salary) {
+    public Employee(String name, String email, int age, int salary, int sssa) {
         this.name = name;
         this.email = email;
         this.age = age;
         this.salary = salary;
+        this.sssa = sssa;
     }
 
     public int getSalary() {
